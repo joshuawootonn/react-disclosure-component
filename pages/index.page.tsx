@@ -18,6 +18,22 @@ export default function App() {
         log of what I have tried and what the best answer is at the moment
       </p>
       <p>
+        More insights from this journey are{" "}
+        <a
+          className="text-purple"
+          href="https://www.joshuawootonn.com/react-accordion-component"
+        >
+          here
+        </a>{" "}
+        and the github for this code is{" "}
+        <a
+          className="text-purple"
+          href="https://github.com/joshuawootonn/react-accordion-component"
+        >
+          here
+        </a>
+      </p>
+      <p>
         For the sake of example I have chosen an accordion component to test out
         different solutions on. You will find it below
       </p>

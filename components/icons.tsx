@@ -1,11 +1,16 @@
 import { SVGMotionProps, motion } from "framer-motion";
 
-export const More = (props: SVGMotionProps<SVGSVGElement>) => (
+export const More = ({
+  className,
+  ...props
+}: SVGMotionProps<SVGSVGElement>) => (
   <motion.svg
     width="20"
     height="20"
     viewBox="0 0 20 20"
     fill="none"
+    className={`${className} text-black`}
+    stroke="currentcolor"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
@@ -14,7 +19,6 @@ export const More = (props: SVGMotionProps<SVGSVGElement>) => (
       y1="10"
       x2="18"
       y2="10"
-      stroke="black"
       strokeWidth="4"
       strokeLinecap="round"
     />
@@ -23,18 +27,23 @@ export const More = (props: SVGMotionProps<SVGSVGElement>) => (
       y1="18"
       x2="10"
       y2="2"
-      stroke="black"
       strokeWidth="4"
       strokeLinecap="round"
     />
   </motion.svg>
 );
-export const Less = (props: SVGMotionProps<SVGSVGElement>) => (
+
+export const Less = ({
+  className,
+  ...props
+}: SVGMotionProps<SVGSVGElement>) => (
   <motion.svg
     width="20"
     height="20"
     viewBox="0 0 20 20"
     fill="none"
+    className={`${className} text-black`}
+    stroke="currentcolor"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
@@ -43,7 +52,6 @@ export const Less = (props: SVGMotionProps<SVGSVGElement>) => (
       y1="10"
       x2="18"
       y2="10"
-      stroke="black"
       strokeWidth="4"
       strokeLinecap="round"
     />

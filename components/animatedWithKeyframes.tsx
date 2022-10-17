@@ -15,7 +15,7 @@ const Toggle = (props: Faq) => {
         <div className="text-2xl font-semibold">{props.title}</div>
         <AnimatePresence initial={false} mode="wait">
           <motion.div
-            key={isOpen ? "minus" : "plus"}
+            key={isOpen ? "less" : "more"}
             initial={{
               rotate: isOpen ? -90 : 90,
             }}

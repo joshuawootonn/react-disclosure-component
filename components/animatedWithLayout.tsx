@@ -19,7 +19,7 @@ const Toggle = (props: Faq) => {
         <AnimatePresence initial={false} mode="wait">
           <motion.div
             layout
-            key={isOpen ? "minus" : "plus"}
+            key={isOpen ? "less" : "more"}
             initial={{
               rotate: isOpen ? -90 : 90,
             }}
