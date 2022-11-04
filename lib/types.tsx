@@ -1,4 +1,4 @@
-import React, { ReactFragment, ReactNode } from "react";
+import React, { ReactNode } from "react";
 
 export type Faq = { title: string; description: ReactNode };
 
@@ -6,7 +6,7 @@ export const content: Faq[] = [
   {
     title: "Some text",
     description: (
-      <div>"Some more text that is much longer and has varying length"</div>
+      <div>Some more text that is much longer and has varying length</div>
     ),
   },
   {

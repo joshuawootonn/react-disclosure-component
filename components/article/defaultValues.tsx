@@ -5,7 +5,6 @@ export type FAQ = { question: string; answer: ReactNode };
 export const defaultFAQs: FAQ[] = [
   {
     question: "Where do you learn to make ice cream?",
-    answer: "Sundae School    ",
     answer: (
       <div>
         Sundae School
