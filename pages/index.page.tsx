@@ -5,6 +5,7 @@ import {
   AnimatedWithLayoutWithoutGlitch,
   AnimatedWithStagger,
   AnimateWithGoodTransition,
+  AnimateWithGoodTransitionAndAccessibility,
   NoAnimation,
 } from "components";
 
@@ -21,21 +22,21 @@ export default function App() {
         More insights from this journey are{" "}
         <a
           className="text-purple"
-          href="https://www.joshuawootonn.com/react-accordion-component"
+          href="https://www.joshuawootonn.com/react-disclosure-component"
         >
           here
         </a>{" "}
         and the github for this code is{" "}
         <a
           className="text-purple"
-          href="https://github.com/joshuawootonn/react-accordion-component"
+          href="https://github.com/joshuawootonn/react-disclosure-component"
         >
           here
         </a>
       </p>
       <p>
-        For the sake of example I have chosen an accordion component to test out
-        different solutions on. You will find it below
+        For the sake of example I have chosen an disclosure component to test
+        out different solutions on. You will find it below
       </p>
       <h2>No animation</h2>
       <p>
@@ -89,10 +90,7 @@ export default function App() {
       <br />
       <br />
       <br />
-      <h2>
-        Animation with good transitions{" "}
-        <span className="text-blue">(Best Current Solution)</span>
-      </h2>
+      <h2>Animation with good transitions </h2>
       <p>
         My only gripe the above animation is that the text is cut off by the
         changing height. This is because text size doesn&apos;t shrink based on
@@ -125,6 +123,23 @@ export default function App() {
         height. Brilliant!
       </p>
       <AnimateWithGoodTransition />
+      <br />
+      <br />
+      <br />
+      <hr />
+      <h2>
+        Animation w/ good transitions and the{" "}
+        <a href="https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/">
+          disclosure pattern
+        </a>
+        <br />
+        <span className="text-blue">(Best Current Solution)</span>
+      </h2>
+      <p>
+        I got some more feedback and update the article to reflect the
+        accessibility upgrade
+      </p>
+      <AnimateWithGoodTransitionAndAccessibility />
       <br />
       <br />
       <br />

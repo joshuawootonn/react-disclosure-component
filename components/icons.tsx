@@ -1,10 +1,7 @@
-import { SVGMotionProps, motion } from "framer-motion";
+import { SVGProps } from "react";
 
-export const More = ({
-  className,
-  ...props
-}: SVGMotionProps<SVGSVGElement>) => (
-  <motion.svg
+export const More = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
+  <svg
     width="20"
     height="20"
     viewBox="0 0 20 20"
@@ -30,14 +27,11 @@ export const More = ({
       strokeWidth="4"
       strokeLinecap="round"
     />
-  </motion.svg>
+  </svg>
 );
 
-export const Less = ({
-  className,
-  ...props
-}: SVGMotionProps<SVGSVGElement>) => (
-  <motion.svg
+export const Less = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
+  <svg
     width="20"
     height="20"
     viewBox="0 0 20 20"
@@ -55,5 +49,5 @@ export const Less = ({
       strokeWidth="4"
       strokeLinecap="round"
     />
-  </motion.svg>
+  </svg>
 );
