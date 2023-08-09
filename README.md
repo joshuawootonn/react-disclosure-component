@@ -1,6 +1,6 @@
 # 🚧 This repo has been moved
 
-Here is the [new location](https://github.com/joshuawootonn/react-components-from-scratch/tree/main/components/disclosure) with all other components I have been working on.
+Here is the [new location](https://github.com/joshuawootonn/react-components-from-scratch/tree/main/components/disclosure) with all the other components I have been working on.
 
 # React Disclosure Component
 
